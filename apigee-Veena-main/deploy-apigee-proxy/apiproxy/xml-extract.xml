@@ -1,0 +1,14 @@
+<APIProxy revision="2" name="xml-extract">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1691723663272</CreatedAt>
+    <LastModifiedAt>1691723663272</LastModifiedAt>
+    <BasePaths>/xml-extract</BasePaths>
+    <Policies>
+        <Policy>EV-XML-DATA</Policy>
+        <Policy>AM-Extract-Values</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>

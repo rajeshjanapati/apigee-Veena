@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-Extract-Values">
+    <DisplayName>AM-Extract-Values</DisplayName>
+    <Properties/>
+    <Set>
+        <!-- <Verb>GET</Verb> -->
+        <Payload contentType="application/json">
+            {
+            "id1":"{xml.id1}",
+            "id2":"{xml.id2}",
+            "id3":"{xml.id3}",
+            "id4":"{xml.id4}"
+            }
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>
